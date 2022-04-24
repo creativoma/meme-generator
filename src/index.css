@@ -1,0 +1,44 @@
+:root{
+  --karla: "Karla", sans-serif;
+  --inter: "Inter", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-family: var(--karla);
+  font-size: 62.5%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  padding: 20px;
+}
+
+.header--image {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.header--title {
+  font-family: var(--karla);
+  font-weight: 700;
+  font-size: 20.7482px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  margin-right: auto;
+}
+
+.header--project {
+  font-family: var(--inter);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
